@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Blog Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Login</h1>
+      <nav>
+        <ul>
+          <li><a href="main.html">Home</a></li>
+          <li><a href="content.html">Content</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a href="https://linkedin.com/in/dylan-bielser-48762715a"
+              >Linkedin</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="login-container">
+        <h2>Sign In</h2>
+        <form action="/login" method="post">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required />
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+
+          <button type="submit">Login</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Dylan Bielser's Blog</p>
+    </footer>
+  </body>
+</html>
