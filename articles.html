@@ -10,13 +10,33 @@
     <header>
       <h2>Articles</h2>
       <nav>
-        <a href="index.html">
-          <h1>The Dealeo</h1>
-        </a>
-        <ul>
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+          <a href="index.html" class="active">The Dealeo</a>
+          <!-- Navigation links (hidden by default) -->
+          <div id="myLinks">
+            <a href="index.html">Home</a>
+            <a href="articles.html">Articles</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+          </div>
+          <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        <ul id="nav-list">
           <li><a href="index.html">Home</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="articles.html">Articles</a></li>
           <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
           <li>
             <a href="https://linkedin.com/in/dylan-bielser-48762715a"
               >LinkedIn</a
@@ -162,5 +182,6 @@
     <footer>
       <p>&copy; 2024 Dylan Bielser's Blog</p>
     </footer>
+    <script src="functions.js"></script>
   </body>
 </html>
