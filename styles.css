@@ -207,7 +207,7 @@ section {
 }
 
 /* Default styles for image containers */
-.image-container, .image_4-container, .image_5-container, .image_6-container, .image_3-container {
+.image-container,.image_3-container, .image_4-container, .image_5-container, .image_6-container, .image_3-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -246,12 +246,7 @@ section {
     }
 }
 
-/* Specific styles for image_3-container */
-.image_3-container {
-    width: 400px;
-    max-width: 100%;
-    border-radius: 0;
-}
+
 .profile-pic {
     width: 200px;
     height: auto;
