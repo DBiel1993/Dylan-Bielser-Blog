@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Computer Vision: An In-Depth Exploration</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Computer Vision: An In-Depth Exploration</h1>
+        <nav>
+          <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+          <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+          />
+
+          <!-- Top Navigation Menu -->
+          <div class="topnav">
+            <a href="../index.html" class="active">The Dealeo</a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+              <a href="../index.html">Home</a>
+              <a href="../articles.html">Articles</a>
+              <a href="../about.html">About</a>
+              <a href="../contact.html">Contact</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+          <ul id="nav-list">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../articles.html">Articles</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+            <li>
+              <a href="https://linkedin.com/in/dylan-bielser-48762715a"
+                >LinkedIn</a
+              >
+            </li>
+            <li><a href="../login.html">Login</a></li>
+          </ul>
+        </nav>
+      </header>
+      <br /><br />
+      <div class="image-container">
+        <img
+          src="../images/image_5.jpeg"
+          alt="Description of the image"
+          class="responsive-image"
+        />
+      </div>
+      <br /><br />
+      <section>
+        <h2>Introduction</h2>
+        <br /><br />
+        <h3>Definition and Importance of Computer Vision</h3>
+        <br /><br />
+        <p>
+          Computer vision is a field of artificial intelligence that enables computers to interpret and understand visual information from the world. By processing images and videos, computer vision allows machines to detect objects, recognize patterns, and make decisions based on visual data. Its importance spans across various industries, including healthcare, automotive, and security, where it enhances automation and accuracy in tasks that require visual analysis.
+        </p>
+        <br /><br />
+        <h3>Brief History and Milestones</h3>
+        <br /><br />
+        <p>
+          The roots of computer vision can be traced back to the 1960s with early research in image processing. Over the decades, advancements in machine learning and deep learning have propelled the field forward. Milestones such as the development of convolutional neural networks (CNNs) and object detection algorithms like YOLO (You Only Look Once) have revolutionized the capabilities of computer vision systems, making them more efficient and accurate.
+        </p>
+      </section>
+      <br /><br />
+      <section>
+        <h2>Fundamentals</h2>
+        <br /><br />
+        <h3>Image Processing Basics</h3>
+        <br /><br />
+        <p>
+          Image processing involves manipulating and analyzing visual data to extract meaningful information. Basic techniques include filtering, edge detection, and image segmentation. Filtering is used to enhance image quality by removing noise and improving contrast. Edge detection identifies the boundaries within images, which is crucial for object recognition. Image segmentation divides an image into regions or objects, facilitating more detailed analysis.
+        </p>
+        <br /><br />
+        <h3>Feature Extraction</h3>
+        <br /><br />
+        <p>
+          Feature extraction is the process of identifying and quantifying distinctive attributes or patterns in images. This step is crucial for tasks such as object recognition and image classification, where features serve as the input for machine learning models. Techniques such as Scale-Invariant Feature Transform (SIFT) and Histogram of Oriented Gradients (HOG) are commonly used to extract relevant features from images.
+        </p>
+      </section>
+      <br /><br />
+      <section>
+        <h2>Key Algorithms</h2>
+        <br /><br />
+        <h3>Convolutional Neural Networks (CNNs)</h3>
+        <br /><br />
+        <p>
+          Convolutional Neural Networks (CNNs) are deep learning algorithms designed specifically for processing structured grid data, such as images. CNNs automatically and adaptively learn spatial hierarchies of features through convolutional layers. These networks consist of convolutional layers, pooling layers, and fully connected layers, which work together to detect patterns and features in images, making them highly effective for image recognition tasks.
+        </p>
+        <br /><br />
+        <h3>Object Detection (YOLO, R-CNN)</h3>
+        <br /><br />
+        <p>
+          Object detection algorithms, such as YOLO (You Only Look Once) and R-CNN (Region-based Convolutional Neural Networks), identify and locate objects within images or videos. YOLO divides the image into a grid and predicts bounding boxes and class probabilities for each grid cell, enabling real-time object detection. R-CNN, on the other hand, combines region proposals with CNNs to classify objects within proposed regions. These algorithms are essential for applications like autonomous driving and surveillance, where real-time object detection is critical.
+        </p>
+      </section>
+      <br /><br />
+      <section>
+        <h2>Applications</h2>
+        <br /><br />
+        <h3>Facial Recognition</h3>
+        <br /><br />
+        <p>
+          Facial recognition technology uses computer vision to identify and verify individuals based on their facial features. This technology is widely used in security systems, personal device authentication, and social media tagging. By analyzing various facial landmarks, such as the distance between the eyes or the shape of the jawline, facial recognition systems can accurately match a face to a stored profile.
+        </p>
+        <br /><br />
+        <h3>Medical Imaging</h3>
+        <br /><br />
+        <p>
+          In healthcare, computer vision assists in analyzing medical images, such as X-rays, MRIs, and CT scans, to detect diseases and abnormalities. It enhances diagnostic accuracy and aids in early detection of conditions, improving patient outcomes. For example, CNNs can be trained to identify tumors or fractures in medical images, providing valuable support to radiologists and other medical professionals.
+        </p>
+        <br /><br />
+        <h3>Autonomous Vehicles</h3>
+        <br /><br />
+        <p>
+          Autonomous vehicles rely heavily on computer vision to navigate and understand their environment. By processing visual data from cameras and sensors, these vehicles can detect obstacles, recognize traffic signals, and make driving decisions, contributing to safer and more efficient transportation. Computer vision algorithms enable self-driving cars to understand complex scenes, predict the behavior of pedestrians and other vehicles, and plan safe driving routes.
+        </p>
+      </section>
+      <br /><br />
+      <section>
+        <h2>Challenges and Trends</h2>
+        <br /><br />
+        <h3>Data Privacy Concerns</h3>
+        <br /><br />
+        <p>
+          As computer vision technologies become more prevalent, concerns about data privacy and security arise. Ensuring that visual data is collected, stored, and processed in a manner that protects individuals' privacy is a critical challenge for developers and policymakers. Regulatory frameworks, such as the General Data Protection Regulation (GDPR) in Europe, aim to address these concerns by setting guidelines for data handling and user consent.
+        </p>
+        <br /><br />
+        <h3>Real-Time Processing</h3>
+        <br /><br />
+        <p>
+          Real-time processing of visual data is essential for applications such as autonomous driving and live video surveillance. Achieving high accuracy and low latency in real-time scenarios requires advanced algorithms and powerful computational resources. Techniques like edge computing, where data processing occurs close to the data source, are being explored to meet these demands. Additionally, advancements in hardware, such as specialized AI processors, are playing a crucial role in enhancing real-time processing capabilities.
+        </p>
+      </section>
+      <br /><br />
+      <section>
+        <h2>Conclusion</h2>
+        <br /><br />
+        <p>
+          Computer vision is a transformative technology that enables machines to interpret and act upon visual information. By understanding its fundamentals, key algorithms, and diverse applications, we can appreciate the profound impact of computer vision on various industries. Addressing current challenges, such as data privacy and real-time processing, and embracing future trends, like edge computing and AI hardware advancements, will be crucial for the continued advancement and ethical deployment of computer vision technologies.
+        </p>
+      </section>
+      <br /><br />
+      <section>
+        <h2>References</h2>
+        <br /><br/>
+        <section>
+            <h2>References</h2>
+            <br /><br />
+            <ul>
+              <li>Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep Learning. MIT Press.</li>
+              <li>Redmon, J., Divvala, S., Girshick, R., & Farhadi, A. (2016). You Only Look Once: Unified, Real-Time Object Detection. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR).</li>
+              <li>Girshick, R. (2015). Fast R-CNN. Proceedings of the IEEE International Conference on Computer Vision (ICCV).</li>
+              <li>LeCun, Y., Bengio, Y., & Hinton, G. (2015). Deep learning. Nature, 521(7553), 436-444.</li>
+              <li>Szeliski, R. (2010). Computer Vision: Algorithms and Applications. Springer.</li>
+            </ul>
+          </section>
+          <footer>
+            <p>&copy; 2024 Your Company. All rights reserved.</p>
+          </footer>
+        </div>
+        <script src="../functions.js"></script>
+      </body>
+    </html>
