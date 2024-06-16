@@ -132,7 +132,7 @@ nav ul li a:hover {
     }
 }
 
-.menu-toggle {
+.-toggle {
     display:flex;
     flex-direction: column;
     cursor: pointer;
@@ -500,7 +500,7 @@ footer p {
     .topnav a.icon {
         width: 50px;
         height: 50px;
-        display: none;
+        display: block;
     }
 }
 
@@ -509,7 +509,7 @@ footer p {
     .topnav a.icon {
         width: 50px;
         height: 50px;
-        display: none;
+        display: block;
     }
 }
 
