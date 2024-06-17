@@ -7,3 +7,12 @@
       }
     ]
   }
+  {
+    "redirects": [
+      {
+        "source": "/about.html",
+        "destination": "/",
+        "permanent": true
+      }
+    ]
+  }
