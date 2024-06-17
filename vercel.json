@@ -9,6 +9,90 @@
         "source": "/about.html",
         "destination": "/",
         "permanent": true
+      },
+      {
+        "source": "/articles.html",
+        "destination": "/",
+        "permanent": true
+      },
+      {
+        "source": "/contact.html",
+        "destination": "/",
+        "permanent": true
+      },
+      {
+        "source": "/login.html",
+        "destination": "/",
+        "permanent": true
+      },
+      {
+        "source": "/content-folder/ai-customer-service.html",
+        "destination": "/",
+        "permanent": true
+      },
+      {
+        "source": "/content-folder/ai-finance.html",
+        "destination": "/",
+        "permanent": true
+      },
+      {
+        "source": "/content-folder/ai-healthcare.html",
+        "destination": "/",
+        "permanent": true
+      },
+      {
+        "source": "/content-folder/ai-manufacturing.html",
+        "destination": "/",
+        "permanent": true
+      },
+      {
+        "source": "/content-folder/ai-retail.html",
+        "destination": "/",
+        "permanent": true
+      },
+      {
+        "source": "/content-folder/building-scalable-applications.html",
+        "destination": "/",
+        "permanent": true
+      },
+      {
+        "source": "/content-folder/computer-vision.html",
+        "destination": "/",
+        "permanent": true
+      },
+      {
+        "source": "/content-folder/data-analytics-modern-business.html",
+        "destination": "/",
+        "permanent": true
+      },
+      {
+        "source": "/content-folder/deep-learning.html",
+        "destination": "/",
+        "permanent": true
+      },
+      {
+        "source": "/content-folder/future-ai-business.html",
+        "destination": "/",
+        "permanent": true
+      },
+      {
+        "source": "/content-folder/machine-learning.html",
+        "destination": "/",
+        "permanent": true
+      },
+      {
+        "source": "/content-folder/natural-language-processing.html",
+        "destination": "/",
+        "permanent": true
+      },
+      {
+        "source": "/content-folder/the-future-of-web-development.html",
+        "destination": "/",
+        "permanent": true
+      },
+      {
+        "source": "/content-folder/understanding-ai.html",
+        "destination": "/",
+        "permanent": true
       }
-    ]
   }
