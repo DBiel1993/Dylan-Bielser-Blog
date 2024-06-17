@@ -4,10 +4,6 @@
         "source": "/index.html",
         "destination": "/",
         "permanent": true
-      }, {
-        "source": "/about.html",
-        "destination": "/About",
-        "permanent": true
       }
     ]
     }
