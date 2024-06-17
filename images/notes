@@ -1,0 +1,10 @@
+1. Each article container needs an image applicable to the article content.
+2. Add content images to all articles.
+3. Add category navigation bar to the side of the Home page.
+4. Inclued publishing dates and author identification.
+5. Create DBMS to house posts and log in information.
+6. Create API for DAL.
+7. Create script to process server side processing.
+8. Create a solution for the contct module to accept a message from the user and save in the DBMS.
+9. Increase the "About" section.
+10. Adjust the article content to include links to other articles within the blog as hyperlinks so when the user clicks on the hyperlink text another page that is in the blog is displayed.
