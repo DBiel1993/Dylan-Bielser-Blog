@@ -1,5 +1,5 @@
 {
-    "redirects": 
+    "redirects": [
       {
         "source": "/index.html",
         "destination": "/",
@@ -95,4 +95,5 @@
         "destination": "/",
         "permanent": true
       }
+    ]
   }
