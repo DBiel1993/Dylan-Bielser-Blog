@@ -18,5 +18,5 @@ document.addEventListener('DOMContentLoaded', function() {
   showSlides(slideIndex);
   setInterval(() => {
     moveSlide(1);
-  }, 2000); // Change slide every second
+  }, 3000); // Change slide every second
 });
