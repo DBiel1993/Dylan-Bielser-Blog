@@ -65,17 +65,17 @@
             <li><a href="login.html">Login</a></li>
           </ul>
         </nav>
+        <div class="search-container">
+          <form action="/search" method="get">
+            <input type="text" placeholder="Search.." name="q" />
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
       </header>
       <section>
-        <div class="image_3-container">
-          <img
-            src="../images/image_3.jpeg"
-            alt="User's photo"
-            class="image_3-container"
-          />
-        </div>
-        <br /><br />
-        <h2>Latest Posts</h2>
+        <div class="image_3-container"></div>
+        
+
         <div class="carousel-container">
           <div class="carousel-slide">
             <div class="carousel-item">
@@ -342,7 +342,8 @@
           <button class="next" onclick="moveSlide(1)">&#10095;</button>
         </div>
         <br /><br />
-
+        <h2>Latest Posts</h2>
+        <br></br>
         <article class="blog-post">
           <h3>Understanding Artificial Intelligence and Its Subsets</h3>
           <p class="date">June 16, 2024</p>
