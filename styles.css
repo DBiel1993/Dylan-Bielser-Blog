@@ -585,3 +585,42 @@ main {
         background-color: #ffffff; /* Example change for background color */
     }
 }
+
+/* Carousel Styling */
+.carousel-container {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
