@@ -331,6 +331,7 @@ footer p {
     max-width: 600px;
     width: 100%;
     margin: 0 auto; /* Center the container */
+    padding-bottom: 146px;
 }
 
 .contact-container form {
@@ -374,6 +375,7 @@ footer p {
     max-width: 400px;
     width: 100%;
     margin: 0 auto; /* Center the container */
+    padding-bottom: 202px;
 }
 
 .login-container form {
@@ -461,6 +463,14 @@ footer p {
         flex: 1 1 100%;
     }
 }
+
+
+main {
+    flex: 1;
+  }
+
+
+
 
 /* Style the navigation menu */
 .topnav {
