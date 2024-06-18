@@ -624,3 +624,9 @@ main {
   .next {
     right: 0;
   }
+  .responsive-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 0; /* Optional: center the image */
+  }
