@@ -279,8 +279,8 @@ section h2 {
     color: #222;
 }
 
-.blog-post .date {
-    font-size: 10px;
+.blog-post.date {
+    font-size: 8px;
     color: #777;
     margin-bottom: 10px;
 }
@@ -606,6 +606,7 @@ main {
     font-size: 20px;
 
   }
+  
   
   .prev, .next {
     position: absolute;
